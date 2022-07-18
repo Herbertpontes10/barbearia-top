@@ -1,0 +1,108 @@
+header {
+  padding: 20px 0;
+  background-image: url(images/parededetijolo.jpg);
+  background-image: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.header {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+h1 img {
+  image-orientation: from-image;
+  color: white;
+  cursor: pointer;
+}
+
+.header li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+.header a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+main {
+  background: black;
+}
+
+.diferencial {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+  cursor: pointer;
+}
+
+.diferencial li {
+  display: inline-block;
+  text-align: center;
+  width: 28%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.diferencial li:hover {
+  border-color: #c78c19;
+}
+
+.diferencial h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-left: 20px;
+  line-height: 40px;
+}
+
+.diferencial li:hover h2 {
+  font-size: 22px;
+  transition: 0, 4 ease;
+}
+
+.imagem {
+  width: 100%;
+}
+
+.p1 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+iframe {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  background: wheat;
+  padding: 40px 0;
+}
+
+.copyright {
+  color: black;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
